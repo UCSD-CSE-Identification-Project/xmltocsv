@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a216abd-99a7-453f-bcba-9c08dd8509f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cse141sp17clicker.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickerresponses.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clickerresponses.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lec01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multiplexmltocsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiplexmltocsv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multiplexmltocsv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiplexmltocsv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmltocsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/xmltocsv.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,9 +17,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/xmltocsv$multiplexmltocsv2.coverage" NAME="multiplexmltocsv2 Coverage Results" MODIFIED="1548183269172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xmltocsv$xmltocsv.coverage" NAME="xmltocsv Coverage Results" MODIFIED="1547963082511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xmltocsv$multiplexmltocsv.coverage" NAME="multiplexmltocsv Coverage Results" MODIFIED="1548183068128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xmltocsv$multiplexmltocsv2.coverage" NAME="multiplexmltocsv2 Coverage Results" MODIFIED="1548910233047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xmltocsv$xmltocsv.coverage" NAME="xmltocsv Coverage Results" MODIFIED="1548909452552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xmltocsv$multiplexmltocsv.coverage" NAME="multiplexmltocsv Coverage Results" MODIFIED="1548912244316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1234722245">
@@ -62,34 +63,44 @@
     <session id="2008960021">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="10" />
-          <entry key="py" value="2" />
-          <entry key="xml" value="4" />
+          <entry key="csv" value="42" />
+          <entry key="jpg" value="30" />
+          <entry key="py" value="19" />
+          <entry key="xml" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="2" />
-          <entry key="XML" value="4" />
+          <entry key="Image" value="30" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="19" />
+          <entry key="XML" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="30" />
+          <entry key="py" value="1794" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="30" />
+          <entry key="Python" value="1794" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -99,11 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/multiplexmltocsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -111,11 +122,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cse141fa17clicker.csv">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiplexmltocsv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161750">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="413">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710031354.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmltocsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +167,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Question,Clicker ID,Final Response</find>
+      <find>#012CF9D4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,9 +176,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/lec01.xml" />
         <option value="$PROJECT_DIR$/xmltocsv.py" />
-        <option value="$PROJECT_DIR$/multiplexmltocsv.py" />
         <option value="$PROJECT_DIR$/multiplexmltocsv2.py" />
+        <option value="$PROJECT_DIR$/multiplexmltocsv.py" />
       </list>
     </option>
   </component>
@@ -153,9 +190,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
+    <option name="x" value="92" />
     <option name="y" value="23" />
-    <option name="width" value="1338" />
+    <option name="width" value="1514" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -163,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,7 +211,7 @@
             <path>
               <item name="xmltocsv" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmltocsv" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="CSE141FA17" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmltocsv" type="b2602c69:ProjectViewProjectNode" />
@@ -185,23 +221,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548183385451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548912352166" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Desktop" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Desktop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multiplexmltocsv2">
+  <component name="RunManager" selected="Python.multiplexmltocsv">
     <configuration name="multiplexmltocsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xmltocsv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,8 +327,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.multiplexmltocsv2" />
         <item itemvalue="Python.multiplexmltocsv" />
+        <item itemvalue="Python.multiplexmltocsv2" />
         <item itemvalue="Python.xmltocsv" />
       </list>
     </recent_temporary>
@@ -315,11 +352,20 @@
       <workItem from="1547963055641" duration="408000" />
       <workItem from="1548012024965" duration="580000" />
       <workItem from="1548177110567" duration="2017000" />
+      <workItem from="1548183214939" duration="660000" />
+      <workItem from="1548224268852" duration="350000" />
+      <workItem from="1548266199463" duration="1700000" />
+      <workItem from="1548268515780" duration="1638000" />
+      <workItem from="1548277041442" duration="2405000" />
+      <workItem from="1548352970679" duration="2341000" />
+      <workItem from="1548360486508" duration="5593000" />
+      <workItem from="1548811531735" duration="330000" />
+      <workItem from="1548878774087" duration="18606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20403000" />
+    <option name="totallyTimeSpent" value="54026000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -331,9 +377,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="23" width="1338" height="1027" extended-state="0" />
+    <frame x="92" y="23" width="1514" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.26311728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.2581522" />
       <window_info id="Structure" order="1" sideWeight="0.50149256" side_tool="true" weight="0.2381323" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,7 +389,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50149256" side_tool="true" weight="0.2381323" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3368984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3368984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,6 +409,36 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.25203803" />
+      <window_info id="Structure" order="1" sideWeight="0.50149256" side_tool="true" weight="0.2381323" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50149256" side_tool="true" weight="0.2381323" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3368984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28342247" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -373,60 +450,226 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/clickerresponses.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/CSE141FA17Images/L1710031354_C5.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmltocsv.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/CSE141FA17Images/L1710031354_C4.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1712051350.xml">
+    <entry file="file://$PROJECT_DIR$/CSE141FA17Images/L1710031354_C3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17Images/L1710031354_C2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17Images/L1710031354_C1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_Q1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17Images/L1704111355_C1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705021355.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488" />
+        <state relative-caret-position="-23048" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710101353.xml">
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1706061354.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20203" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1706011359.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705301358.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13322" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705251358.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15913" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705231401.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705181358.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705161358.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15463" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705111357.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17148" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1705090931.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="2232" column="19" selection-start-line="2232" selection-start-column="19" selection-end-line="2232" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clickerresponses.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cse141sp17clicker.csv">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1706081358.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="47" column="80" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cse141fa17clicker.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-356888" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1704201356.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1704250917.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1704181121.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1704131356.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141SP17/L1704111355.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710051355.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19117" />
+        <state relative-caret-position="-20292" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1711081152.xml">
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710101353.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16317" />
+        <state relative-caret-position="-18442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710121358.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9267" />
+        <state relative-caret-position="-8902" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cse141sp17clicker.csv" />
-    <entry file="file://$PROJECT_DIR$/clickerresponses.csv">
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710171359.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34531">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
+        <state relative-caret-position="-21135" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lec01.xml">
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710191356.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+        <state relative-caret-position="-7720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1711081152.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1711091355.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1711161400.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1711141359.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8427" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1711211400.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9089" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1712051350.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12913" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSE141FA17/L1712071408.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="538" column="23" selection-start-line="538" selection-start-column="23" selection-end-line="538" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmltocsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="385">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
@@ -435,15 +678,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSE141FA17/L1710031354.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11450">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="258">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multiplexmltocsv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="413">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -452,18 +695,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multiplexmltocsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="378">
+          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cse141fa17clicker.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161750">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
