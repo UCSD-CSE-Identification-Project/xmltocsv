@@ -3,17 +3,20 @@ import xml.etree.ElementTree as ET
 import csv
 
 filenames = sorted(glob.glob('./CSE141FA17/*.xml'))
-# images = glob.glob('./CSE141FA17Images/*.jpg')
+images = sorted(glob.glob('./CSE141FA17Images/*Q*.jpg'))
 print filenames
-# print images
-question_list = []
+print images
 
-# parse each xml file
+# print ./CSE141FA17Images/*Q*.jpg
+
+question_list = []      # List to store the question numbers
+
+# Parse each xml file
 for filename in filenames:
     tree = ET.parse(filename)
     root = tree.getroot()
 
-    # Store question number in array
+    # Store question number in list
     for questionNum in root.iter('p'):
         index = questionNum.get('idx')
         question_list.append(index)
@@ -21,26 +24,31 @@ for filename in filenames:
 print question_list
 print len(question_list)
 
-# write question number, clicker ID, and answers to csv
+# Write question number, clicker ID, and answers to csv
 with open('cse141fa17clicker.csv', 'w') as writeFile:
     writer = csv.writer(writeFile)
     writer.writerow(['Clicker ID'] + question_list)   # csv header
 
-    tree = ET.parse(filenames[0])
-    root = tree.getroot()
+    clicker_list = []       # List to store the clicker ID's
+    for filename in filenames:
+        tree = ET.parse(filename)
+        root = tree.getroot()
 
-    question = root.find('p')
+        question = root.find('p')
 
-    # Lists the students' clicker ID's
-    clicker_list = []
-    for student in question.iter('v'):
-        clickerID = student.get('id')
-        clicker_list.append(clickerID)
+        # Lists the students' clicker ID's
+        for student in question.iter('v'):
+            clickerID = student.get('id')
+            if clickerID not in clicker_list:
+                clicker_list.append(clickerID)
 
     for clicker in clicker_list:
         answers_list = [clicker]
 
         for filename in filenames:
+            tree = ET.parse(filename)
+            root = tree.getroot()
+
             for student in root.iter('v'):
                 remote = student.get('id')
 
@@ -49,7 +57,9 @@ with open('cse141fa17clicker.csv', 'w') as writeFile:
                     answers_list.append(ans)
 
         writer.writerow(answers_list)
-        print answers_list
+        # print answers_list
+
+
 
 print clicker_list
 print len(clicker_list)

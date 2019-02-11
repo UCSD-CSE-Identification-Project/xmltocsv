@@ -3,9 +3,11 @@ import xml.etree.ElementTree as ET
 import csv
 
 filenames = sorted(glob.glob('./CSE141SP17/*.xml'))
-# images = glob.glob('./CSE141SP17Images/*.jpg')
+images = glob.glob('./CSE141SP17Images/*Q*.jpg')
 print filenames
-# print images
+print images
+print len(images)
+
 question_list = []
 
 # parse each xml file
@@ -49,7 +51,7 @@ with open('cse141sp17clicker.csv', 'w') as writeFile:
                     answers_list.append(ans)
 
         writer.writerow(answers_list)
-        print answers_list
+        # print answers_list
 
 print clicker_list
 print len(clicker_list)
